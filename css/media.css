@@ -1,0 +1,23 @@
+main {
+    font: 12pt "Comic Sans MS";
+    color: whitesmoke;
+}
+
+.video1,
+.video2 {
+    border: 2px solid silver;
+    border-radius: 10px;
+    transition: opacity 0.7s box-shadow 0.7s width 0.7s;
+    display: inline-flex;
+}
+
+.video1:hover,
+.video2:hover {
+    border: 2px solid orangered;
+    opacity: 0.9;
+    box-shadow: 2px 3px orange, 0px 0px 40px orangered;
+}
+
+.video2 {
+    width: 32%;
+}

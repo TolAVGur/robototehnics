@@ -1,0 +1,20 @@
+main {
+    color: lightgrey;
+    font: 11pt italic "Arial";
+}
+.mini {
+    width: 250px;
+    height: 170px;
+    margin: 0px 3px 3px 3px;
+    border: 2px solid silver;
+    border-radius: 10px;
+    transition: opacity 0.7s box-shadow 0.7s width 0.7s;
+    display: inline-flex;
+}
+
+.mini:hover {
+    border: 2px solid orangered;
+    opacity: 0.9;
+    box-shadow: 2px 3px orange, 0px 0px 40px orangered;
+    width: 280px;
+}

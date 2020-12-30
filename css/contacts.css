@@ -1,0 +1,58 @@
+main {
+    color: cornsilk;
+}
+main h3 {  
+    font: 12pt 'Verdana';
+}
+#robo-sites {
+    font: 12pt "Consolas";
+    color:whitesmoke;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 70%;
+   
+}
+
+.header-row {
+    background:bisque;
+    color: navy;
+    font-size: 11px;
+}
+
+#robo-sites th,
+#robo-sites td {
+    padding: 5px;
+}
+
+#robo-sites td {
+    
+    font-style: italic;
+}
+.odd {
+    background: darkgrey;
+    color: white;
+}
+
+.even {
+    background: lightgrey;
+    color: purple;
+}
+
+.img-logo {
+    width: 100%;
+}
+.c1 {
+    width: 5%;
+}
+.c2 {
+    width: 15%;
+}
+.c3 {
+    width: 15%;
+}
+.c4 {
+    width: 55%;
+}
+.c5 {
+    width: 10%;
+}

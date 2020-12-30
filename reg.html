@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робототехника - Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="icon" href="img/iconfinder__android.png">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.1/jquery.hoverIntent.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <hr> 
+        <nav id="nav2">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="news.html">Новости</a>
+                    <ul>
+                        <li><a href="news-1.html">Ноябрь-2020</a></li>
+                        <li><a href="news-2.html">Октябрь-2020</a></li>
+                        <li><a href="news-3.html">Сентябрь-2020</a></li>
+                        <li><a href="news-4.html">Август-2020</a></li>
+                        <li><a href="news-5.html">Июль-2020</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery.html">Галерея</a>
+                    <ul>
+                        <li><a href="gallery-1.html">Промышленные</a></li>
+                        <li><a href="gallery-2.html">Андроиды</a></li>
+                        <li><a href="gallery-3.html">Бытовые</a></li>
+                        <li><a href="gallery-4.html">Мини-роботы</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="media.html">Медиа-архив</a>
+                    <ul>
+                        <li><a href="video-1.html">video-1</a></li>
+                        <li><a href="videp-2.html">video-2</a></li>
+                        <li><a href="video-3.html">video-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="reg.html">Регистрация</a></li>
+            </ul>  
+        </nav>
+        <hr>      
+    </header>
+    <main>
+        <!--=======================================================================-->
+         <form id="reg_form" action="server/handler.html" method="POST">
+            <h3>Регистрация</h3>
+            <table id="reg_table" border="0">
+                <tr>
+                    <td class="t1"><label for="login">Логин:</label></td>
+                    <td class="t2"><input class="reg_inp" id="login" name="login" type="text" required></td>
+                    <td class="t3"><img src="img/iconfinder_questionssvg.png" id="login_img"></td>
+                </tr>
+                <tr class="error">
+                    <td></td>
+                    <td><span id="login_err">Сообщение об ошибке</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="t1"><label for="pass1">Пароль:</label></td>
+                    <td class="t2"><input class="reg_inp" id="pass1" name="pass1" type="password" required></td>
+                    <td class="t3"><img src="img/iconfinder_questionssvg.png" id="pass1_img"></td>
+                </tr>
+              
+                <tr class="error">
+                    <td></td>
+                    <td><span id="pass1_err">Сообщение об ошибке</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="t1"><label for="pass2">Повтор:</label></td>
+                    <td class="t2"><input class="reg_inp" id="pass2" name="pass2" type="password" required></td>
+                    <td class="t3"><img src="img/iconfinder_questionssvg.png" id="pass2_img"></td>
+                </tr>
+                <tr class="error">
+                    <td></td>
+                    <td><span id="pass2_err">Сообщение об ошибке</span></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="t1"><label for="email">E-Mail:</label></td>
+                    <td class="t2"><input class="reg_inp" id="email" name="email" type="email" required></td>
+                    <td class="t3"><img src="img/iconfinder_questionssvg.png" id="email_img"></td>
+                </tr>
+                <tr class="error">
+                    <td></td>
+                    <td><span id="email_err">Сообщение об ошибке</span></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div class="submit">
+                <input type="submit" value="Отправить" class="from_button">
+                <input type="reset" value="Очистить" class="from_button">
+
+            </div>
+         </form>
+        <!--=======================================================================-->
+
+    </main>
+    <footer>
+        <hr>
+        <h5>Copyright: &copy; IT-Academy STEP - Kyiv, 2020-2021</h5>
+    </footer>
+
+</body>
+</html>

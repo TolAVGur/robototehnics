@@ -1,0 +1,58 @@
+#market-place {
+    position: relative;
+}
+#market-place img {
+    width: 100%;
+}
+#market-place h1 {
+    font-size: 28pt;
+    color: orangered;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    text-shadow: 2px 2px orange;
+}
+#market-place h4 {
+   position: absolute;
+   text-indent: 40px;
+   font-size: 10pt;
+   color:thistle;
+   width: 50%;
+   text-align: left;
+   left: 30px;
+   top: 75px;
+}
+
+#three-colum {
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+/*#three-colum img {
+    width: 250px;
+    margin: 0px 3px;
+    border: 2px solid silver;
+    border-radius: 10px;
+}*/
+#three-colum h2 {
+    color: orangered;
+    font-size: 14pt;
+    margin: 0px;
+    text-align: center;
+}
+#three-colum p {
+    color: whitesmoke;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 10px;
+    font-size: 10pt;
+    width: 350px;
+}
+
+#three-colum button {
+    color: navy;
+    font: italic 12pt 'Verdana';
+    padding: 5px;
+    margin: 0px 35px;
+    width: 200px;
+}

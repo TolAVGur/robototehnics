@@ -1,0 +1,61 @@
+main {
+    color: gray;
+    font: 12pt "Trebuchet MS";
+}
+
+main h3 {
+    font-size: 13pt;
+    font-style: italic;
+}
+
+#reg_form {
+    background: whitesmoke;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 0px 15px 15px 15px;
+    width: 350px;
+    margin: 15px auto;
+}
+#reg_table {
+    width: 100%;
+}
+
+.t1 {
+    width: 20%;
+    text-align: right;
+}
+.t2 {
+    width: 60%;
+}
+.t3 {
+    width: 20%;
+}
+
+.reg_inp {
+    width: 100%;
+}
+
+span {
+    color: red;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.error {
+    display: none;
+}
+
+.submit {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form_button {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;  
+}
+.form_button:hover {
+    color: white;
+    background: gray;
+}

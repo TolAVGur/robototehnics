@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font: 12pt 'Consolas';
+    padding: 5px 5%;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+}
+
+header h1 {
+    color:orangered;
+    text-shadow: -3px -1px orange;
+}
+
+footer h5 {
+    color: lightblue;
+}
+
+#nav1 {
+    color: whitesmoke;
+    display: none;
+}
+
+#nav1 a,
+#nav2 a,
+#nav3 a {
+    color: whitesmoke;
+    font: italic 12pt 'Verdana';
+    text-decoration: none;
+}
+
+#nav2 {
+    background: lightgrey;
+    border-radius: 5px;
+    
+}
+
+#nav2 ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;  
+}
+
+#nav2 ul li {
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+}
+
+#nav2 ul li a {
+    display: block;
+    text-align: left;
+    padding: 7px 10px 8px 10px;
+    background: lightgrey;
+    color: navy;
+    transition: background 0.6s, color 0.6s;
+}
+
+#nav2 ul li a:hover {
+    background: peru;
+    color: white;
+}
+
+#nav2 ul li ul {
+    position: absolute;
+    left:  10px;
+    top: 34px;
+    display: none;
+}
+/*
+#nav2 ul li:hover ul {
+    display: block;
+}
+*/
+#nav2 ul li ul li {
+    display: block;
+}
+
+#nav2 ul li ul li a {
+    padding: 7px 7px 8px 7px;
+}
+
+#nav3 {
+    color: whitesmoke;
+    text-align: left;
+}
+
+#nav3 ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   width: 150px;
+}
+
+#nav3 li a {
+    display: block;
+    text-align: center;
+    padding: 7px 10px 8px 10px;
+    background: lightgrey;
+    color: navy;
+    transition: background 0.6s, color 0.6s;
+    border-radius: 5px;
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+#nav3 li a:hover {
+    background: peru;
+    color: white;
+}
